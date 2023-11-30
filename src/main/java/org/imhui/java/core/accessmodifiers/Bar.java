@@ -7,19 +7,36 @@ package org.imhui.java.core.accessmodifiers;
  */
 public class Bar {
 
-    private void abc() {
-
+    public void pub_abc() {
+        System.out.println("Bar method: pub_abc");
     }
 
-    private final void bca() {
-
+    public final void pub_f_abc() {
+        System.out.println("Bar method: pub_f_abc");
     }
 
-    protected final void ccc() {
-
+    private void pri_abc() {
+        System.out.println("Bar method: pri_abc");
+        // 调用本类私有方法
+        pri_f_abc();
     }
 
-    public static void main(String[] args) {
-        new PublicConstructor();
+    private final void pri_f_abc() {}
+
+    protected void pro_abc() {
+        System.out.println("Bar method: pro_abc");
+        // 调用本类受保护方法
+        pro_f_abc();
+    }
+    protected final void pro_f_abc() {
+        System.out.println("Bar method: pro_f_abc");
+    }
+
+    void de_abc() {
+        System.out.println("Bar method: de_abc");
+        ccc(1);
+    }
+
+    void ccc(int i){
     }
 }
