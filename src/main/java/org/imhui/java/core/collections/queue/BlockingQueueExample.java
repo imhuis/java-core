@@ -1,4 +1,4 @@
-package org.imhui.java.core.queue;
+package org.imhui.java.core.collections.queue;
 
 import java.util.Random;
 import java.util.concurrent.ArrayBlockingQueue;

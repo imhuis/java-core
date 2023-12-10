@@ -16,9 +16,6 @@ version = "1.0-SNAPSHOT"
 description = "java-core"
 java.sourceCompatibility = JavaVersion.VERSION_17
 
-// def lombok version
-var lombokVersion = "1.18.30"
-
 dependencies {
     api("junit:junit:4.13.2")
     api("com.google.guava:guava:31.1-jre")
