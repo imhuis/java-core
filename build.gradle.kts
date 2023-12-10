@@ -15,7 +15,7 @@ repositories {
 java.sourceCompatibility = JavaVersion.VERSION_17
 java.targetCompatibility = JavaVersion.VERSION_17
 
-group = "com.imhuis.code"
+group = "com.imhuis.code.java"
 version = "1.0-SNAPSHOT"
 description = "java-core"
 
@@ -39,9 +39,6 @@ dependencies {
 subprojects {
     apply(plugin = "java-library")
 //    apply(from = "${rootProject.projectDir}/gradle/subprojects.gradle.kts")
-
-//    java.sourceCompatibility = JavaVersion.VERSION_17
-//    java.targetCompatibility = JavaVersion.VERSION_17
 
     repositories {
         mavenLocal()

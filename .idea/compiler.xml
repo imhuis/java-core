@@ -7,15 +7,20 @@
         <processorPath useClasspath="false">
           <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.30/lombok-1.18.30.jar" />
         </processorPath>
+        <module name="com.imhuis.code.java.java-core.test" />
         <module name="workspace.java-core.learning-java.test" />
-        <module name="com.imhuis.code.java-core.main" />
         <module name="workspace.java-core.cornerstone.main" />
         <module name="workspace.java-core.cornerstone.test" />
         <module name="workspace.java-core.jvm.main" />
-        <module name="com.imhuis.code.java-core.test" />
+        <module name="com.imhuis.code.java.java-core.main" />
         <module name="workspace.java-core.jvm.test" />
         <module name="workspace.java-core.learning-java.main" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="com.imhuis.code.java-core" target="17" />
+      <module name="com.imhuis.code.java-core.main" target="17" />
+      <module name="com.imhuis.code.java-core.test" target="17" />
+    </bytecodeTargetLevel>
   </component>
 </project>
