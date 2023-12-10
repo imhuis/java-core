@@ -41,7 +41,7 @@ public class MethodReferences {
 
     public static void main(String[] args) {
         Describe d = new Describe();
-        Callable c = d::show;                   // [6]
+        Callable c = d::show;                   // [6] 绑定方法引用
         c.call("call()");                    // [7]
 
         c = MethodReferences::hello;            // [8]
