@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Gradle Imported" enabled="true">
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.30/lombok-1.18.30.jar" />
+        </processorPath>
+        <module name="workspace.java-core.learning-java.test" />
+        <module name="com.imhuis.code.java-core.main" />
+        <module name="workspace.java-core.cornerstone.main" />
+        <module name="workspace.java-core.cornerstone.test" />
+        <module name="workspace.java-core.jvm.main" />
+        <module name="com.imhuis.code.java-core.test" />
+        <module name="workspace.java-core.jvm.test" />
+        <module name="workspace.java-core.learning-java.main" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>

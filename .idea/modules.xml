@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/java-core.iml" filepath="$PROJECT_DIR$/.idea/modules/java-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/cornerstone/java-core.cornerstone.iml" filepath="$PROJECT_DIR$/.idea/modules/cornerstone/java-core.cornerstone.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/jvm/java-core.jvm.iml" filepath="$PROJECT_DIR$/.idea/modules/jvm/java-core.jvm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/learning-java/java-core.learning-java.iml" filepath="$PROJECT_DIR$/.idea/modules/learning-java/java-core.learning-java.iml" />
+    </modules>
+  </component>
+</project>
