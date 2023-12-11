@@ -1,7 +1,25 @@
 rootProject.name = "java-core"
+
 include("cornerstone")
 include("jvm")
 include("learning-java")
+
+dependencyResolutionManagement {
+    repositories {
+        mavenCentral()
+    }
+}
+
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+    }
+}
+
+plugins {
+    id("org.gradle.toolchains.foojay-resolver-convention") version "0.4.0"
+}
 
 // groovy syntax
 //def isSubproject = { File file ->
